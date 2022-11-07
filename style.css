@@ -1,0 +1,42 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Oswald', sans-serif;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 10px;
+}
+
+.card{
+    text-align: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+    border-radius: 25px;
+    margin: 0.7rem;
+    font-size: 1.2rem;
+
+}
+
+.button button{
+    margin: 3rem 0.3rem;
+    border-radius: 10px;
+    padding: 0.7rem;
+    cursor: pointer;
+    border: none;
+}
+
+.button button:hover{
+    background-color: bisque;
+    transition: all 0.4s ease;
+}
+
+
